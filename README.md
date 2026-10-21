@@ -28,19 +28,6 @@ Python, Pandas, NumPy, Scikit-learn, Matplotlib, Seaborn, Jupyter Notebook.
 5. Trained and compared Multinomial Naive Bayes, Logistic Regression, and Linear SVC.
 6. Evaluated the best-performing model with a classification report, confusion matrix, sample predictions, and error analysis.
 
-## Model Architecture
-
-The neural network consists of:
-
-- Embedding Layer (64 dimensions)
-- SpatialDropout1D (0.3)
-- LSTM (64 units)
-- Dense Layer (64 units, ReLU)
-- Dropout (0.3)
-- Output Layer (5 units, Softmax)
-
-The model was trained using the Adam optimizer, sparse categorical cross-entropy loss, and Early Stopping.
-
 ## Results
 
 The following values come from the notebook's **shared model-comparison training loop**. Training times are run-dependent.
