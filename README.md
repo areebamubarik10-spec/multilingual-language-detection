@@ -72,7 +72,7 @@ The notebook inspects the first ten misclassified test examples. Several contain
 
 ## Future Work
 
-- **Deployment:** I am currently working on deploying this model as an interactive web application using **Streamlit** and **Hugging Face Spaces** to provide a live demo.
+- **Deployment:**  I plan to deploy this model as an interactive web application using **Streamlit** and **Hugging Face Spaces** to provide a live demo.
 - **Deep Learning:** Explore Transformer-based models such as **XLM-RoBERTa** to improve handling of code-switching (mixed-language text), with evaluation needed to establish whether they outperform the current model.
 - Investigate suspected label inconsistencies and test performance on shorter texts and unsupported-language inputs.
 
